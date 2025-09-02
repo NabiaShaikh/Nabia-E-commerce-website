@@ -1,0 +1,350 @@
+  body {
+      font-family: 'Montserrat', sans-serif;
+      color: #333;
+      overflow-x: hidden;
+    }
+
+    .navbar {
+      background-color: white;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+      padding: 15px 0;
+    }
+
+    .navbar-brand {
+      font-weight: 700;
+      font-size: 1.8rem;
+      letter-spacing: 2px;
+    }
+
+    .nav-link {
+      font-weight: 500;
+      text-transform: uppercase;
+      font-size: 0.85rem;
+      letter-spacing: 1px;
+      padding: 0 15px !important;
+    }
+
+    .hero-carousel .carousel-item {
+      height: 600px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .carousel-caption {
+      bottom: 30%;
+    }
+
+    .hero-title {
+      font-weight: 700;
+      font-size: 3rem;
+    }
+
+    .hero-subtitle {
+      font-weight: 300;
+      font-size: 1.2rem;
+    }
+
+    .btn-dark {
+      background-color: #222;
+      border: none;
+      padding: 10px 30px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 500;
+      border-radius: 0;
+      transition: all 0.3s;
+    }
+
+    .btn-outline-dark {
+      border: 1px solid #222;
+      padding: 10px 30px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 500;
+      border-radius: 0;
+      transition: all 0.3s;
+    }
+
+    .btn-dark:hover,
+    .btn-outline-dark:hover {
+      background-color: #444;
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .section-title {
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      position: relative;
+      display: inline-block;
+      margin-bottom: 40px;
+    }
+
+    .section-title:after {
+      content: "";
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      height: 2px;
+      width: 60px;
+      background-color: #333;
+    }
+
+    .category-item {
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    .category-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 20px;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+      color: white;
+    }
+
+    .product-card {
+      border: none;
+      border-radius: 0;
+      transition: all 0.3s;
+    }
+
+    .product-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-title {
+      font-weight: 500;
+      font-size: 0.95rem;
+      margin-top: 15px;
+    }
+
+    .product-price {
+      font-weight: 600;
+      color: #222;
+    }
+
+    .filter-sidebar {
+      border-right: 1px solid #eee;
+      padding-right: 30px;
+    }
+
+    .filter-title {
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+      margin-bottom: 15px;
+    }
+
+    .filter-item {
+      margin-bottom: 5px;
+    }
+
+    .form-check-input:checked {
+      background-color: #333;
+      border-color: #333;
+    }
+
+    .cart-item {
+      border-bottom: 1px solid #eee;
+      padding: 20px 0;
+    }
+
+    .quantity-selector button {
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #f7f7f7;
+      border: none;
+    }
+
+    .quantity-selector input {
+      width: 40px;
+      text-align: center;
+      border: none;
+      background-color: transparent;
+    }
+
+    .color-swatch {
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 5px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .color-swatch.active {
+      transform: scale(1.2);
+      border: 2px solid #333;
+    }
+
+    .size-selector {
+      display: flex;
+      gap: 10px;
+    }
+
+    .size-option {
+      width: 35px;
+      height: 35px;
+      border: 1px solid #ddd;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .size-option.active {
+      background-color: #333;
+      color: white;
+      border-color: #333;
+    }
+
+    .product-details-img {
+      width: 100%;
+      height: auto;
+    }
+
+    .zoom-container {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .custom-preview {
+      border: 1px dashed #ddd;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    .newsletter-section {
+      background-color: #f7f7f7;
+      padding: 80px 0;
+    }
+
+    .newsletter-input {
+      padding: 12px 20px;
+      border: 1px solid #ddd;
+      border-radius: 0;
+      width: 100%;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      padding: 60px 0 30px;
+    }
+
+    .footer-title {
+      font-weight: 600;
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+    }
+
+    .footer-links {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer-links li {
+      margin-bottom: 10px;
+    }
+
+    .footer-links a {
+      color: #bbb;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .footer-links a:hover {
+      color: white;
+    }
+
+    .social-icons a {
+      color: white;
+      font-size: 1.3rem;
+      margin-right: 15px;
+      transition: all 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #ddd;
+    }
+
+    .dropdown-menu {
+      border-radius: 0;
+      border: none;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Profile Page Styles */
+    .profile-nav .nav-link {
+      padding: 10px 15px;
+      border-radius: 0;
+      border-left: 3px solid transparent;
+    }
+
+    .profile-nav .nav-link.active {
+      background-color: #f7f7f7;
+      border-left: 3px solid #333;
+      font-weight: 600;
+    }
+
+    .order-card {
+      border: 1px solid #eee;
+      border-radius: 0;
+    }
+
+    .order-number {
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+
+    .order-date {
+      color: #777;
+      font-size: 0.85rem;
+    }
+
+    .checkout-form label {
+      font-weight: 500;
+      font-size: 0.9rem;
+      margin-bottom: 5px;
+    }
+
+    .checkout-form .form-control {
+      padding: 10px 15px;
+      border-radius: 0;
+      border: 1px solid #ddd;
+    }
+
+    .checkout-form .form-control:focus {
+      box-shadow: none;
+      border-color: #333;
+    }
+
+    /* Mobile Adjustments */
+    @media (max-width: 767px) {
+      .hero-carousel .carousel-item {
+        height: 400px;
+      }
+
+      .hero-title {
+        font-size: 2rem;
+      }
+
+      .section-title {
+        font-size: 1.5rem;
+      }
+    }
+    #nabia{
+        height: 67%;
+    }
